@@ -3,66 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONE PIECE CARD DATA HUB</title>
+    <title>ワンピカード上達 | 便利ツールと攻略読み物</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Noto Sans JP', sans-serif; background-color: #0f172a; color: #f1f5f9; }
         .font-oswald { font-family: 'Oswald', sans-serif; }
+        /* 日本語のタイトルをより力強く見せる設定 */
+        .title-gradient {
+            background: linear-gradient(to bottom right, #fde68a, #fbbf24, #d97706);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     </style>
 </head>
 <body class="selection:bg-amber-500/30">
 
 <div class="max-w-5xl mx-auto px-6 py-12">
-    <header class="text-center mb-20 space-y-4">
+    <header class="text-center mb-16 space-y-6">
         <div class="inline-block bg-amber-500/10 border border-amber-500/20 px-4 py-1 rounded-full mb-2 text-amber-400 text-[10px] font-black tracking-[0.3em] uppercase">
-            Official Statistics Portal
+            One Piece Card Portal
         </div>
-        <h1 class="text-5xl md:text-8xl font-black italic tracking-tighter font-oswald bg-gradient-to-br from-amber-200 via-amber-400 to-amber-600 bg-clip-text text-transparent">
-            DATA HUB
+        
+        <h1 class="text-5xl md:text-7xl font-black tracking-tighter title-gradient">
+            ワンピカード上達
         </h1>
-        <p class="text-slate-400 text-sm md:text-base font-medium max-w-lg mx-auto leading-relaxed">
-            「運」を「数字」で支配する。勝利の確率を1%上げるための、ワンピカード攻略ツール群。
+        
+        <p class="text-slate-400 text-sm md:text-lg font-medium max-w-2xl mx-auto leading-relaxed">
+            ワンピースカードゲームを楽しく強くなるための<br class="hidden md:block">便利ツールや読み物を用意しています！
         </p>
     </header>
 
     <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
         <a href="https://stats.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
             <div class="flex items-center gap-6">
-                <div class="bg-blue-500 p-4 rounded-2xl shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform">📊</div>
+                <div class="bg-blue-500 p-4 rounded-2xl shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform text-2xl">📊</div>
                 <div>
                     <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">戦績管理ツール</h2>
-                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">Battle Record Analytics</p>
+                    <p class="text-slate-500 text-[10px] font-bold uppercase tracking-wider mt-1 text-left">Battle Record Analytics</p>
                 </div>
             </div>
         </a>
 
         <a href="https://onepiece.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
             <div class="flex items-center gap-6">
-                <div class="bg-green-500 p-4 rounded-2xl shadow-lg shadow-green-500/20 group-hover:scale-110 transition-transform">⚔️</div>
+                <div class="bg-green-500 p-4 rounded-2xl shadow-lg shadow-green-500/20 group-hover:scale-110 transition-transform text-2xl">⚔️</div>
                 <div>
                     <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">オススメリーダー診断</h2>
-                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">AI Leader Diagnosis</p>
+                    <p class="text-slate-500 text-[10px] font-bold uppercase tracking-wider mt-1 text-left">AI Leader Diagnosis</p>
                 </div>
             </div>
         </a>
 
         <a href="https://matchup.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
             <div class="flex items-center gap-6">
-                <div class="bg-purple-500 p-4 rounded-2xl shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform">📈</div>
+                <div class="bg-purple-500 p-4 rounded-2xl shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform text-2xl">📈</div>
                 <div>
                     <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">リーダー別マッチアップ</h2>
-                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">Win Rate Statistics</p>
+                    <p class="text-slate-500 text-[10px] font-bold uppercase tracking-wider mt-1 text-left">Win Rate Statistics</p>
                 </div>
             </div>
         </a>
 
         <a href="https://keisanki.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
             <div class="flex items-center gap-6">
-                <div class="bg-amber-500 p-4 rounded-2xl shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform">🏆</div>
+                <div class="bg-amber-500 p-4 rounded-2xl shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform text-2xl">🏆</div>
                 <div>
                     <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">ワンピカ確率クイズ</h2>
-                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">Probability Master Quiz</p>
+                    <p class="text-slate-500 text-[10px] font-black uppercase tracking-wider mt-1 text-left text-[10px]">Probability Master Quiz</p>
                 </div>
             </div>
         </a>
@@ -70,57 +78,39 @@
 
     <section class="bg-slate-800/20 border border-slate-700/30 rounded-[3rem] p-8 md:p-12 space-y-10">
         <div class="flex items-center justify-between border-b border-slate-700/50 pb-6">
-            <h2 class="text-3xl font-black italic tracking-tighter flex items-center gap-3 font-oswald">
-                <span class="text-amber-500 text-2xl">#</span> DAILY ANALYSIS
+            <h2 class="text-2xl font-black italic tracking-tighter flex items-center gap-3">
+                <span class="text-amber-500">#</span> 最新の攻略情報
             </h2>
             <div class="text-right">
-                <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none">Last Update</p>
-                <p class="text-sm font-bold text-amber-500 mt-1">2026.01.18</p>
+                <p class="text-sm font-bold text-amber-500">2026.01.18 更新</p>
             </div>
         </div>
 
         <div class="space-y-12">
-            <a href="/article1.html" class="group cursor-pointer">
-                <div class="flex flex-col space-y-3">
-                    <div class="flex items-center gap-3">
+            <a href="/article1.html" class="block group cursor-pointer">
+                <div class="flex flex-col space-y-3 text-left">
+                    <div class="flex items-center gap-3 text-left">
                         <span class="text-[10px] font-black bg-amber-500 text-slate-900 px-2 py-0.5 rounded">NEW</span>
-                        <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Environment</span>
+                        <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest text-left">統計分析</span>
                     </div>
-                    <h3 class="text-2xl font-bold group-hover:text-amber-400 transition-colors leading-tight">
+                    <h3 class="text-2xl font-bold group-hover:text-amber-400 transition-colors leading-tight text-left">
                         【統計の真実】黒イムの五老星集結確率は、なぜ91.4%に収束するのか？
                     </h3>
-                    <p class="text-slate-400 text-sm leading-relaxed line-clamp-2">
-                        本日のシミュレーション結果により、リーダー効果とサーチカードの連鎖がもたらす「超圧縮」の仕組みを詳しく解説。運ではなく、構築の勝利であることを証明します。
-                    </p>
-                    <div class="flex items-center gap-2 pt-2 text-amber-400 text-xs font-black italic group-hover:translate-x-1 transition-transform">
-                        READ MORE <span>→</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="group cursor-pointer opacity-70 hover:opacity-100 transition-opacity">
-                <div class="flex flex-col space-y-3 border-t border-slate-700/30 pt-10">
-                    <div class="flex items-center gap-3">
-                        <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Deck Analysis</span>
-                    </div>
-                    <h3 class="text-xl font-bold group-hover:text-amber-400 transition-colors">
-                        青黄ハンコック、後手1ターンの期待値を最大化するマリガン基準
-                    </h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        「ニョン婆」と「光月日和」のどちらを優先すべきか？統計クイズでも出題した「88.1%」の裏側にある理論を深掘りします。
+                    <p class="text-slate-400 text-sm leading-relaxed line-clamp-2 text-left">
+                        本日のシミュレーション結果により、リーダー効果とサーチカードの連鎖がもたらす「超圧縮」の仕組みを詳しく解説。
                     </p>
                 </div>
-            </article>
+            </a>
         </div>
     </section>
 
     <footer class="mt-24 text-center space-y-6">
         <div class="flex justify-center gap-12">
-            <a href="https://lin.ee/..." class="text-slate-500 hover:text-white transition-colors font-black tracking-widest text-xs uppercase">LINE Official</a>
-            <a href="https://x.com/..." class="text-slate-500 hover:text-white transition-colors font-black tracking-widest text-xs uppercase">X Official</a>
+            <a href="#" class="text-slate-500 hover:text-white transition-colors font-black tracking-widest text-[10px] uppercase">LINE 公式</a>
+            <a href="#" class="text-slate-500 hover:text-white transition-colors font-black tracking-widest text-[10px] uppercase">X 公式</a>
         </div>
         <p class="text-slate-700 text-[10px] font-bold uppercase tracking-[0.4em]">
-            &copy; 2026 PIRO NEKO PROJECT. ALL RIGHTS RESERVED.
+            &copy; 2026 PIRO NEKO PROJECT.
         </p>
     </footer>
 </div>
