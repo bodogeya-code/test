@@ -3,82 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>卒論屋 - テスト公開ページ</title>
+    <title>ONE PIECE CARD DATA HUB</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Noto Serif JP', serif; background-color: #fffdf6; color: #3c2323; }
+        body { font-family: 'Noto Sans JP', sans-serif; background-color: #0f172a; color: #f1f5f9; }
+        .font-oswald { font-family: 'Oswald', sans-serif; }
     </style>
 </head>
-<body>
+<body class="selection:bg-amber-500/30">
 
-<div class="max-w-4xl mx-auto px-4 py-8">
-    <header class="text-center mb-12">
-        <h1 class="text-3xl font-bold mb-2">卒論屋</h1>
-        <p class="text-sm opacity-80">卒論、修論、各種論文販売、卒論代行、論文代行の卒論屋です。</p>
+<div class="max-w-5xl mx-auto px-6 py-12">
+    <header class="text-center mb-20 space-y-4">
+        <div class="inline-block bg-amber-500/10 border border-amber-500/20 px-4 py-1 rounded-full mb-2 text-amber-400 text-[10px] font-black tracking-[0.3em] uppercase">
+            Official Statistics Portal
+        </div>
+        <h1 class="text-5xl md:text-8xl font-black italic tracking-tighter font-oswald bg-gradient-to-br from-amber-200 via-amber-400 to-amber-600 bg-clip-text text-transparent">
+            DATA HUB
+        </h1>
+        <p class="text-slate-400 text-sm md:text-base font-medium max-w-lg mx-auto leading-relaxed">
+            「運」を「数字」で支配する。勝利の確率を1%上げるための、ワンピカード攻略ツール群。
+        </p>
     </header>
 
-    <div class="bg-[#3c2323] text-white rounded-lg p-12 text-center shadow-2xl mb-12 relative overflow-hidden">
-        <div class="relative z-10">
-            <h2 class="text-3xl md:text-4xl font-bold mb-6">限定1部販売<br>卒論屋です。</h2>
-            <p class="mb-4 text-lg">執筆者は東大卒。15年間で1000人以上のサポート。</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4 mt-8">
-                <a href="#" class="bg-[#20603c] hover:bg-[#2a7a4d] text-white font-bold py-4 px-8 rounded-full transition-all">論文販売ページはこちら</a>
-                <a href="#" class="bg-white text-[#3c2323] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all">オーダーメイド依頼はこちら</a>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
+        <a href="https://stats.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
+            <div class="flex items-center gap-6">
+                <div class="bg-blue-500 p-4 rounded-2xl shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform">📊</div>
+                <div>
+                    <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">戦績管理ツール</h2>
+                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">Battle Record Analytics</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://onepiece.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
+            <div class="flex items-center gap-6">
+                <div class="bg-green-500 p-4 rounded-2xl shadow-lg shadow-green-500/20 group-hover:scale-110 transition-transform">⚔️</div>
+                <div>
+                    <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">オススメリーダー診断</h2>
+                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">AI Leader Diagnosis</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://matchup.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
+            <div class="flex items-center gap-6">
+                <div class="bg-purple-500 p-4 rounded-2xl shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform">📈</div>
+                <div>
+                    <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">リーダー別マッチアップ</h2>
+                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">Win Rate Statistics</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://keisanki.kakeruya.com/" class="group bg-slate-800/40 border border-slate-700/50 p-8 rounded-[2rem] hover:bg-slate-800/80 hover:border-amber-500/50 transition-all duration-300 shadow-2xl backdrop-blur-md">
+            <div class="flex items-center gap-6">
+                <div class="bg-amber-500 p-4 rounded-2xl shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform">🏆</div>
+                <div>
+                    <h2 class="text-xl font-black group-hover:text-amber-400 transition-colors">ワンピカ確率クイズ</h2>
+                    <p class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-1">Probability Master Quiz</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="bg-slate-800/20 border border-slate-700/30 rounded-[3rem] p-8 md:p-12 space-y-10">
+        <div class="flex items-center justify-between border-b border-slate-700/50 pb-6">
+            <h2 class="text-3xl font-black italic tracking-tighter flex items-center gap-3 font-oswald">
+                <span class="text-amber-500 text-2xl">#</span> DAILY ANALYSIS
+            </h2>
+            <div class="text-right">
+                <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none">Last Update</p>
+                <p class="text-sm font-bold text-amber-500 mt-1">2026.01.18</p>
             </div>
         </div>
-    </div>
 
-    <section class="mb-16">
-        <h2 class="text-2xl font-bold text-center mb-8">サービスの概要</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div class="bg-white p-6 border border-gray-100 shadow-sm rounded-lg">
-                <h3 class="font-bold text-xl mb-4 border-b pb-2">販売論文</h3>
-                <p class="text-sm">各種論文販売は現在note内行っております。</p>
-            </div>
-            <div class="bg-white p-6 border border-gray-100 shadow-sm rounded-lg">
-                <h3 class="font-bold text-xl mb-4 border-b pb-2">オーダーメイド</h3>
-                <p class="text-sm">依頼は公式LINEにて承っております。</p>
-            </div>
-            <div class="bg-white p-6 border border-gray-100 shadow-sm rounded-lg">
-                <h3 class="font-bold text-xl mb-4 border-b pb-2">料金</h3>
-                <p class="text-sm leading-relaxed">販売：8,000円〜<br>オーダー：1文字1.5円〜</p>
-            </div>
+        <div class="space-y-12">
+            <article class="group cursor-pointer">
+                <div class="flex flex-col space-y-3">
+                    <div class="flex items-center gap-3">
+                        <span class="text-[10px] font-black bg-amber-500 text-slate-900 px-2 py-0.5 rounded">NEW</span>
+                        <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Environment</span>
+                    </div>
+                    <h3 class="text-2xl font-bold group-hover:text-amber-400 transition-colors leading-tight">
+                        【統計の真実】黒イムの五老星集結確率は、なぜ91.4%に収束するのか？
+                    </h3>
+                    <p class="text-slate-400 text-sm leading-relaxed line-clamp-2">
+                        本日のシミュレーション結果により、リーダー効果とサーチカードの連鎖がもたらす「超圧縮」の仕組みを詳しく解説。運ではなく、構築の勝利であることを証明します。
+                    </p>
+                    <div class="flex items-center gap-2 pt-2 text-amber-400 text-xs font-black italic group-hover:translate-x-1 transition-transform">
+                        READ MORE <span>→</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="group cursor-pointer opacity-70 hover:opacity-100 transition-opacity">
+                <div class="flex flex-col space-y-3 border-t border-slate-700/30 pt-10">
+                    <div class="flex items-center gap-3">
+                        <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Deck Analysis</span>
+                    </div>
+                    <h3 class="text-xl font-bold group-hover:text-amber-400 transition-colors">
+                        青黄ハンコック、後手1ターンの期待値を最大化するマリガン基準
+                    </h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        「ニョン婆」と「光月日和」のどちらを優先すべきか？統計クイズでも出題した「88.1%」の裏側にある理論を深掘りします。
+                    </p>
+                </div>
+            </article>
         </div>
     </section>
 
-    <footer class="bg-[#3c2323] text-white p-8 md:p-12 rounded-[3rem] text-center shadow-inner">
-        <p class="text-xl mb-6 font-bold tracking-widest italic">Contact & News</p>
-        
-        <div class="flex justify-center gap-8 text-lg mb-12">
-            <a href="#" class="border border-white/30 px-6 py-2 rounded-lg hover:bg-white hover:text-[#3c2323] transition-all">公式LINE</a>
-            <a href="#" class="border border-white/30 px-6 py-2 rounded-lg hover:bg-white hover:text-[#3c2323] transition-all">公式X</a>
+    <footer class="mt-24 text-center space-y-6">
+        <div class="flex justify-center gap-12">
+            <a href="https://lin.ee/..." class="text-slate-500 hover:text-white transition-colors font-black tracking-widest text-xs uppercase">LINE Official</a>
+            <a href="https://x.com/..." class="text-slate-500 hover:text-white transition-colors font-black tracking-widest text-xs uppercase">X Official</a>
         </div>
-
-        <div class="max-w-2xl mx-auto text-left bg-black/20 p-6 rounded-2xl border border-white/10">
-            <h4 class="text-sm font-bold mb-4 text-green-400 flex items-center gap-2">
-                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                最新の更新情報
-            </h4>
-            <ul class="space-y-6">
-                <li class="border-b border-white/5 pb-4 last:border-0">
-                    <span class="text-xs opacity-50 block mb-1">2026.1.17</span>
-                    <p class="text-sm font-bold leading-relaxed hover:text-green-300 cursor-pointer transition-colors">
-                        新作卒論販売「妖怪の誕生と変遷 ――昔の恐怖から現代のキャラクターまで」
-                    </p>
-                </li>
-                <li class="border-b border-white/5 pb-4 last:border-0">
-                    <span class="text-xs opacity-50 block mb-1">2026.1.16</span>
-                    <p class="text-sm font-bold leading-relaxed hover:text-green-300 cursor-pointer transition-colors">
-                        新作卒論販売「AIは地方を救うか、東京一極集中を加速させるか【約1万字】」
-                    </p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="mt-12 pt-8 border-t border-white/10 text-[10px] opacity-40 uppercase tracking-[0.3em]">
-            © 2026 卒論屋 - Powered by Vercel
-        </div>
+        <p class="text-slate-700 text-[10px] font-bold uppercase tracking-[0.4em]">
+            &copy; 2026 PIRO NEKO PROJECT. ALL RIGHTS RESERVED.
+        </p>
     </footer>
 </div>
 
