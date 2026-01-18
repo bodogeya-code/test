@@ -22,8 +22,7 @@
         <div class="relative z-10">
             <h2 class="text-3xl md:text-4xl font-bold mb-6">限定1部販売<br>卒論屋です。</h2>
             <p class="mb-4 text-lg">執筆者は東大卒。15年間で1000人以上のサポート。</p>
-            <p class="mb-8 opacity-90">テーマや内容を自由に指定できるオーダーメイド論文も対応可。</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
+            <div class="flex flex-col md:flex-row justify-center gap-4 mt-8">
                 <a href="#" class="bg-[#20603c] hover:bg-[#2a7a4d] text-white font-bold py-4 px-8 rounded-full transition-all">論文販売ページはこちら</a>
                 <a href="#" class="bg-white text-[#3c2323] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all">オーダーメイド依頼はこちら</a>
             </div>
@@ -32,42 +31,53 @@
 
     <section class="mb-16">
         <h2 class="text-2xl font-bold text-center mb-8">サービスの概要</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div class="bg-white p-6 border border-gray-100 shadow-sm rounded-lg">
                 <h3 class="font-bold text-xl mb-4 border-b pb-2">販売論文</h3>
-                <p class="text-sm mb-4">各種論文販売は現在note内行っております。</p>
-                <a href="#" class="text-green-800 font-bold hover:underline italic">販売論文の詳細 →</a>
+                <p class="text-sm">各種論文販売は現在note内行っております。</p>
             </div>
             <div class="bg-white p-6 border border-gray-100 shadow-sm rounded-lg">
                 <h3 class="font-bold text-xl mb-4 border-b pb-2">オーダーメイド</h3>
-                <p class="text-sm mb-4">テーマや内容を自由に指定できる依頼は、公式LINEにて承っております。</p>
-                <a href="#" class="text-green-800 font-bold hover:underline italic">依頼の詳細 →</a>
+                <p class="text-sm">依頼は公式LINEにて承っております。</p>
             </div>
             <div class="bg-white p-6 border border-gray-100 shadow-sm rounded-lg">
                 <h3 class="font-bold text-xl mb-4 border-b pb-2">料金</h3>
-                <p class="text-sm leading-relaxed">
-                    ・販売：8,000円〜<br>
-                    ・オーダー：1文字1.5円〜<br>
-                    納期やご要望に応じます。
-                </p>
+                <p class="text-sm leading-relaxed">販売：8,000円〜<br>オーダー：1文字1.5円〜</p>
             </div>
         </div>
     </section>
 
-    <section class="text-center py-12 border-t border-b border-gray-200 mb-12">
-        <p class="text-sm mb-2 opacity-60 tracking-widest uppercase">Latest Blog</p>
-        <h3 class="text-2xl font-bold mb-6 tracking-tighter">blog</h3>
-        <a href="#" class="inline-block border border-[#3c2323] px-10 py-2 hover:bg-[#3c2323] hover:text-white transition-colors">ブログ一覧へ</a>
-    </section>
-
-    <footer class="bg-[#3c2323] text-white p-12 rounded-t-[3rem] text-center">
-        <p class="text-xl mb-6 font-bold tracking-widest">お問い合わせはこちら</p>
-        <div class="flex justify-center gap-8 text-2xl">
-            <a href="#" class="hover:text-green-400 transition-colors">公式LINE</a>
-            <a href="#" class="hover:text-blue-400 transition-colors">公式X</a>
+    <footer class="bg-[#3c2323] text-white p-8 md:p-12 rounded-[3rem] text-center shadow-inner">
+        <p class="text-xl mb-6 font-bold tracking-widest italic">Contact & News</p>
+        
+        <div class="flex justify-center gap-8 text-lg mb-12">
+            <a href="#" class="border border-white/30 px-6 py-2 rounded-lg hover:bg-white hover:text-[#3c2323] transition-all">公式LINE</a>
+            <a href="#" class="border border-white/30 px-6 py-2 rounded-lg hover:bg-white hover:text-[#3c2323] transition-all">公式X</a>
         </div>
-        <div class="mt-12 pt-8 border-t border-white/10 text-xs opacity-50">
-            © 2026 卒論屋 - Build for Vercel Learning
+
+        <div class="max-w-2xl mx-auto text-left bg-black/20 p-6 rounded-2xl border border-white/10">
+            <h4 class="text-sm font-bold mb-4 text-green-400 flex items-center gap-2">
+                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                最新の更新情報
+            </h4>
+            <ul class="space-y-6">
+                <li class="border-b border-white/5 pb-4 last:border-0">
+                    <span class="text-xs opacity-50 block mb-1">2026.1.17</span>
+                    <p class="text-sm font-bold leading-relaxed hover:text-green-300 cursor-pointer transition-colors">
+                        新作卒論販売「妖怪の誕生と変遷 ――昔の恐怖から現代のキャラクターまで」
+                    </p>
+                </li>
+                <li class="border-b border-white/5 pb-4 last:border-0">
+                    <span class="text-xs opacity-50 block mb-1">2026.1.16</span>
+                    <p class="text-sm font-bold leading-relaxed hover:text-green-300 cursor-pointer transition-colors">
+                        新作卒論販売「AIは地方を救うか、東京一極集中を加速させるか【約1万字】」
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-white/10 text-[10px] opacity-40 uppercase tracking-[0.3em]">
+            © 2026 卒論屋 - Powered by Vercel
         </div>
     </footer>
 </div>
