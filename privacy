@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー | ワンピカード上達</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; background-color: #0f172a; color: #f1f5f9; }
+        .content p { margin-bottom: 1.5rem; line-height: 1.8; color: #cbd5e1; }
+        .content h2 { font-size: 1.25rem; font-weight: 900; color: #fbbf24; margin-top: 2rem; margin-bottom: 1rem; border-left: 4px solid #fbbf24; padding-left: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="max-w-3xl mx-auto px-6 py-12">
+        <a href="/" class="text-amber-500 text-sm font-bold hover:underline">← TOPに戻る</a>
+        
+        <header class="mt-8 mb-12">
+            <h1 class="text-3xl font-black tracking-tighter">プライバシーポリシー</h1>
+        </header>
+
+        <div class="content text-sm">
+            <h2>1. 広告の配信について</h2>
+            <p>当サイトでは、第三者配信の広告サービス「Googleアドセンス」を利用しています。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookie（クッキー）を使用することがあります。</p>
+            
+            <h2>2. アクセス解析ツールについて</h2>
+            <p>当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。このGoogleアナリティクスはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。</p>
+
+            <h2>3. 免責事項</h2>
+            <p>当サイトのコンテンツ・情報につきまして、可能な限り正確な情報を掲載するよう努めておりますが、誤情報が入り込んだり、情報が古くなっていることもございます。当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。</p>
+            
+            <p class="mt-12 text-slate-500 italic">2026年1月18日 策定</p>
+        </div>
+    </div>
+</body>
+</html>
