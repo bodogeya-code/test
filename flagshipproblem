@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9191702848805076" crossorigin="anonymous"></script>
+
+    <title>フラッグシップバトルの乗り打ち問題 | ワンピカード上達</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; background-color: #0f172a; color: #f1f5f9; }
+        .article-body p { margin-bottom: 1.5rem; line-height: 1.8; color: #cbd5e1; }
+        .article-body h2 { font-size: 1.5rem; font-weight: 900; color: #fbbf24; margin-top: 2.5rem; margin-bottom: 1.2rem; border-left: 4px solid #fbbf24; padding-left: 1rem; }
+        .article-body h3 { font-size: 1.2rem; font-weight: 900; color: #fde68a; margin-top: 1.5rem; margin-bottom: 1rem; }
+        .comparison-box { background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(148, 163, 184, 0.2); border-radius: 1rem; padding: 1.5rem; margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+
+<div class="max-w-3xl mx-auto px-6 py-12">
+    <a href="/" class="text-amber-500 text-sm font-bold hover:underline">← ワンピカード上達 TOPへ</a>
+
+    <article class="mt-8">
+        <header class="mb-12">
+            <span class="text-[10px] font-black bg-amber-500 text-slate-900 px-2 py-0.5 rounded uppercase">Opinion</span>
+            <h1 class="text-3xl md:text-5xl font-black mt-4 leading-tight tracking-tighter">
+                フラッグシップバトルの乗り打ち問題：50万円のゾロがもたらす歪み
+            </h1>
+            <p class="text-slate-500 text-sm mt-4 italic">Published: 2026.01.18 | By PiroNeko</p>
+        </header>
+
+        <div class="w-full min-h-[100px] bg-slate-800/30 border border-slate-700 rounded-xl mb-12 flex items-center justify-center text-slate-600 text-xs italic">
+            ADVERTISEMENT
+        </div>
+
+        <div class="article-body">
+            <p>ワンピカードのフラッグシップバトルにおいて、今避けては通れない議論があります。それは「優勝賞品を売却し、その利益を対戦相手やグループで分配する」乗り打ち行為です。</p>
+            <p>なぜこの問題が起きるのか、そして先駆者であるMTGの事例と比較して考えてみます。</p>
+
+            <h2>1. 賞品価値の高騰</h2>
+            <p>現在、フラシ優勝の「ゾロ」の買取価格は約50万円とも言われています。一方、準優勝（決勝負け）との差額は45万円以上にのぼることも珍しくありません。</p>
+            <div class="comparison-box">
+                <p class="font-bold text-amber-400 mb-2 underline decoration-amber-500/30">決勝戦の重み</p>
+                <p class="text-sm">たった1試合に「45万円」がかかっているという異常事態。解決策としての談合、すなわち「どっちが勝っても売って半分にしよう」という合意が生まれるのは、ある種人間として自然な防衛本能とも言えます。</p>
+            </div>
+
+            <h2>2. ルール明文化の限界</h2>
+            <p>現在の総合ルールでは、「買収や談合によって試合結果を変えること」は明確に禁止されています。しかし、ここにグレーゾーンが存在します。</p>
+            <p class="italic text-slate-300 bg-slate-800/50 p-4 rounded-lg">「真剣に試合をした上で、獲得した賞品をどう扱うかは優勝者の自由ではないか？」</p>
+            <p>この「事後の分配」についてはルールで縛りきれないのが現状です。</p>
+
+            <h2>3. MTG（マジック・ザ・ギャザリング）との比較</h2>
+            <p>ここで、TCGの先駆者であるMTGの事例を見てみましょう。ここが一番の「歪み」を感じるポイントです。</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-700">
+                    <h4 class="font-bold text-blue-400 mb-2">MTG：グランプリ</h4>
+                    <ul class="text-xs space-y-1 opacity-80">
+                        <li>・規模：約2,000人以上</li>
+                        <li>・拘束：2日間 15回戦以上</li>
+                        <li>・優勝：約30万円</li>
+                        <li>・運営：多数のジャッジ</li>
+                    </ul>
+                </div>
+                <div class="bg-amber-900/20 p-4 rounded-xl border border-amber-900/30">
+                    <h4 class="font-bold text-amber-500 mb-2">ワンピ：フラッグシップ</h4>
+                    <ul class="text-xs space-y-1 opacity-80">
+                        <li>・規模：32人</li>
+                        <li>・拘束：4-5回戦</li>
+                        <li>・優勝：約50万円相当</li>
+                        <li>・運営：基本1人のみ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p>比較すると一目瞭然です。MTGの最高峰イベントよりも、店舗レベルの大会であるフラシの方が「短時間で、かつジャッジの目が届かない環境で、より高額な賞品が動いている」という現実があります。</p>
+            <p>特筆すべきは、MTGでは「賞品の分配（プライズ・スプリット）」が公式に認められている点です。決勝戦で「権利は俺が、ボックスは君が」といった交渉が可能です（※ただし、結果を直接買う行為は厳禁）。</p>
+
+            <h2>4. 運営体制とリスクの不一致</h2>
+            <p>フラシの問題点は、「わずか5戦、ジャッジ1人という環境で、50万円相当の実質大金が動いてしまっている」という歪な構造にあります。これほどの高額商品が動くのであれば、単なる「カードゲームの大会」の枠を超えてしまっています。</p>
+
+            <hr class="border-slate-800 my-12">
+
+            <h2 class="text-center italic">結論として</h2>
+            <p>「賞品を分けるのは不純だ」という感情論も理解できます。しかし、これほどの金額差がある中で「正義感」だけに頼るルール運用には限界があるのではないでしょうか。</p>
+            <ul class="list-disc list-inside space-y-2 text-slate-300 ml-4 mb-8">
+                <li>賞品の価値を適切に分散させるのか</li>
+                <li>MTGのように事前の分配交渉を認めるのか</li>
+                <li>それともジャッジ体制を強化して厳罰化するのか</li>
+            </ul>
+            <p>皆さんは、この「フラシの山分け問題」についてどう考えますか？</p>
+        </div>
+
+        <div class="w-full h-[250px] bg-slate-800/30 border border-slate-700 rounded-xl mt-12 mb-12 flex items-center justify-center text-slate-600 text-xs italic">
+            ADVERTISEMENT
+        </div>
+    </article>
+
+    <footer class="mt-20 pt-8 border-t border-slate-800 text-center text-slate-600 text-xs font-bold uppercase tracking-widest">
+        © 2026 PIRO NEKO PROJECT
+    </footer>
+</div>
+
+</body>
+</html>
