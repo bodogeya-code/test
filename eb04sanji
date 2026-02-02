@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EB04環境到来！新カードがもたらす既存デッキの劇的進化 | ワンピカード上達</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; background-color: #0f172a; color: #f1f5f9; }
+        .article-content p { margin-bottom: 1.5rem; line-height: 1.8; color: #cbd5e1; }
+        .article-content h2 { font-size: 1.5rem; font-weight: 900; color: #fbbf24; margin-top: 3rem; margin-bottom: 1.5rem; border-left: 5px solid #fbbf24; padding-left: 1rem; }
+        .article-content h3 { font-size: 1.25rem; font-weight: 900; color: #fde68a; margin-top: 2rem; margin-bottom: 1rem; }
+        .comparison-card { background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(251, 191, 36, 0.2); border-radius: 1.5rem; padding: 2rem; margin: 2rem 0; }
+        .accent-box { background: rgba(251, 191, 36, 0.1); border-radius: 1rem; padding: 1.5rem; border-left: 4px solid #fbbf24; margin-bottom: 2rem; }
+        .card-img { width: 100%; max-width: 400px; margin: 2rem auto; display: block; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); border: 1px solid rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body>
+
+<div class="max-w-3xl mx-auto px-6 py-12">
+    <a href="/" class="text-amber-500 text-sm font-bold hover:underline flex items-center gap-2">
+        <span>←</span> ワンピカード上達 HUBへ戻る
+    </a>
+
+    <article class="mt-10">
+        <header class="mb-12">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="text-[10px] font-black bg-amber-500 text-slate-900 px-2 py-1 rounded uppercase tracking-tighter">New Deck</span>
+                <span class="text-slate-500 text-xs font-bold">2026.02.02 UPDATE</span>
+            </div>
+            <h1 class="text-3xl md:text-5xl font-black mt-4 leading-tight tracking-tighter text-white">
+                EB04環境到来！新カードがもたらす既存デッキの劇的進化
+            </h1>
+            <p class="text-slate-500 text-sm mt-6 font-medium italic">Written by PiroNeko</p>
+        </header>
+
+        <div class="article-content">
+            <p>EB04が発売され、早速各地の大会で新しいカードたちが活躍を見せています！</p>
+            
+            <p>手札の減らないくまとして、ボルサリーノは早速青黄ハンコックでスタメン入りしています。</p>
+
+            <img src="https://github.com/user-attachments/assets/bdfdd9c8-1d60-404e-8949-89b1757d8c16" alt="ボルサリーノ" class="card-img" />
+
+            <p>ハンコック以外にも新リーダー赤黄ボニーでも大活躍。</p>
+
+            <img src="https://github.com/user-attachments/assets/8bf42dac-3421-4fb0-b5cd-68644c4aee57" alt="ボニー関連" class="card-img" />
+
+            <p>特徴エッグヘッドを持っているので、助けてクエーサ～!!のトリガー効果でも舞い戻ってきます。</p>
+
+            <img src="https://github.com/user-attachments/assets/29bf15ff-76b2-4818-94a4-77009dba0801" alt="助けてクエーサー" class="card-img" />
+
+            <h2>1. 注目カードの採用事例</h2>
+            <p>発売前から注目されていた7ゾロも赤黄ボニーだけでなく、赤青エースでも試されています。</p>
+            <p>エースだと7ドンターンからリーダーのパワーを8000に吊り上げられるため、多くのデッキを攻めあぐねさせます。</p>
+
+            <div class="accent-box">
+                <h3 class="mt-0 text-amber-400">エースでの運用</h3>
+                <p class="text-sm">後手だと出すタイミングが難しくなりますが、リーダー効果で投げ捨てるか、8ドンターンに<a href="https://www.onehappy.co.jp/view/item/000000003780" class="text-amber-500 underline">「おれァ‘‘白ひげ‘‘だァア!!!!」</a>がないときの苦渋の選択として出番があります。</p>
+            </div>
+
+            <p>最近のエースにはエース＆サボ＆ルフィが対緑ミホーク用に採用されているのを見かけます。同じ理屈で新戦力となるのが「歪んだ未来」です。</p>
+
+            <img src="https://github.com/user-attachments/assets/f33b2762-313f-4be1-b936-76f2bf84a4df" alt="歪んだ未来" class="card-img" />
+
+            <p>こちらは1コストで3000カウンターの仕事をしながら、相手キャラのパワーダウンもできます。エース＆サボ＆ルフィの上位互換とまでは言い切れませんが、散らしたりしてミホークのキャラを討ち取るのもいい運用でしょう。</p>
+
+            <h2>2. 多様化する環境：ロシナンテとクザン</h2>
+            <p>ロシナンテ＆ローによって、紫黄ロシナンテも姿を見せるようになりました。</p>
+
+            <img src="https://github.com/user-attachments/assets/3d13ae84-54d9-4563-b4c9-8d3d632f6035" alt="ロシナンテ＆ロー" class="card-img" />
+
+            <p>序盤からスタッツの優秀なありとあらゆるトラファルガー・ローが出てくるので、紫黄ロシナンテのデッキパワーも十分強力です。今後に注目です。</p>
+
+            <div class="grid grid-cols-2 gap-4">
+                <img src="https://github.com/user-attachments/assets/1ce5c7cb-8859-4f3f-9140-700830a07211" alt="ロー" class="rounded-xl border border-slate-700" />
+                <img src="https://github.com/user-attachments/assets/46dd6f9b-64cd-4108-ac54-f561216ddb0a" alt="ロー" class="rounded-xl border border-slate-700" />
+            </div>
+
+            <p class="mt-8">イッショウ＆アイスタイムで青クザンも復権。序盤はイッショウで手札を削り、ガープでキャラを展開したらアイスタイムで相手の攻撃を封じる。青クザンの必殺進行も注目です。</p>
+
+            <h2>3. 劇的な進化：ステルスブラック</h2>
+            <p>環境に多様な変化をもたしたEB04のカードたちですが、特に既存のデッキを劇的に変えたのがこちらです。</p>
+
+            <img src="https://github.com/user-attachments/assets/924bb316-4303-4bdd-ba81-058fec93bdc1" alt="ステルスブラック" class="card-img" />
+
+            <p><strong>ステルスブラック。</strong>これで青紫サンジが生まれ変わりました。</p>
+
+            <div class="comparison-card">
+                <h3 class="mt-0">新生・青紫サンジの強み</h3>
+                <p class="text-sm text-slate-300">先手なら3ドンターンにサンジを出す。5ドンターンに3コストのサンジをおかわりするか、4レイジュを出す→リーダー効果でステルスブラック発動。これで5ドンターンに3体も除去耐性のあるキャラが並ぶことになります。</p>
+            </div>
+
+            <p>今まで攻撃力の低い青紫サンジでしたが、最序盤から圧力をかけて殴りながら除去を連打する、手が付けられないデッキへと生まれ変わったのです。</p>
+
+            <p class="text-center font-black text-amber-500 mt-12 text-xl">
+                EB04環境はまだ始まったばかり！<br>新カードたちと共に駆け抜けましょう！
+            </p>
+        </div>
+
+    </article>
+
+    <footer class="mt-20 pt-8 border-t border-slate-800 text-center">
+        <p class="text-slate-600 text-[10px] font-black uppercase tracking-[0.4em]">
+            © 2026 PIRO NEKO PROJECT. ALL RIGHTS RESERVED.
+        </p>
+    </footer>
+</div>
+
+</body>
+</html>
